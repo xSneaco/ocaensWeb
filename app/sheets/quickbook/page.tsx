@@ -114,6 +114,7 @@ export default function QuickbookPage() {
             <div className={"w-full text-center mt-8"}>
                 {versionContent[selectedVersion]}
             </div>
+            <Spacer y={8}/>
         </main>
     );
 }

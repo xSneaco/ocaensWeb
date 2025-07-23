@@ -115,9 +115,9 @@ export default function HLTV() {
                     maxRows={1}
                 />
             </Form>
-            <p>
-                This is just an estimated HLTV 2.0 Rating and may differ from the actual one.
-                This is based off <a href={"https://www.hltv.org/forums/threads/2433094/rating-20"}>BrasiI's</a> formula calculation aswell as Dave's formula
+            <p className={"text-center"}>
+                This is just an estimated HLTV 2.0 Rating and may differ from the actual one.<br/>
+                This is based off <a href={"https://www.hltv.org/forums/threads/2433094/rating-20"} className={"underline"}>BrasiI</a>'s formula calculation aswell as <a href={"https://web.archive.org/web/20241218023441/https://flashed.gg/posts/reverse-engineering-hltv-rating/"} className={"underline"}>Dave</a>'s formula
             </p>
         </main>
     );

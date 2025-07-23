@@ -112,6 +112,7 @@ export default function Changelogs() {
                     ]}/>
                 </AccordionItem>
             </Accordion>
+            <Spacer y={8}/>
         </main>
     );
 }
