@@ -4,10 +4,9 @@ import {
     Dropdown,
     DropdownTrigger,
     DropdownMenu,
-    DropdownSection,
     DropdownItem,
 } from "@heroui/dropdown";
-import {addToast, Button, Divider} from "@heroui/react";
+import {Button, Divider} from "@heroui/react";
 import Names from "@/components/quickbook/Names";
 import Tournaments from "@/components/quickbook/Tournaments";
 import Mappool from "@/components/quickbook/Mappool";

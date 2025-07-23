@@ -1,9 +1,8 @@
 "use client"
 
 import {Navbar} from "@heroui/navbar";
-import {Logo, SteamIcon} from "@/components/icons";
+import {Logo} from "@/components/icons";
 import {Card, CardHeader, CardBody, Divider} from "@heroui/react";
-import Image from "next/image";
 
 export default function Home() {
   return (
