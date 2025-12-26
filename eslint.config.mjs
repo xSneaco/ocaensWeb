@@ -97,7 +97,7 @@ export default defineConfig([globalIgnores([
         "no-unused-vars": "off",
         "unused-imports/no-unused-vars": "off",
         "unused-imports/no-unused-imports": "warn",
-        "tabWidth": "1",
+        "tabWidth": "warn",
 
         "@typescript-eslint/no-unused-vars": ["warn", {
             args: "after-used",
